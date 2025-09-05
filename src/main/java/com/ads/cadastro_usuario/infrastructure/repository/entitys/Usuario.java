@@ -21,5 +21,4 @@ public class Usuario {
 
     @Column(name = "nome")
     private String nome;
-
 }

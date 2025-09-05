@@ -18,7 +18,6 @@ public class UsuarioController {
         return ResponseEntity.ok().build();
      }
 
-
     @GetMapping
     public ResponseEntity<Usuario> buscarUsuarioPoremail(@RequestParam String email) {
         return ResponseEntity.ok(usuarioService.buscarUsuarioPoremail(email));
